@@ -6,7 +6,7 @@ class Wemabank{
     public function lookup_account($account_number)
     {
        $businessId = "3a000d3b-9760-4d1a-f501-08daf9260b71";
-
+ 
         $url = "https://alatpay.azure-api.net/merchant-onboarding/api/v1/banks/accountName";
         
         $curl = curl_init($url);
